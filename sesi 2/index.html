@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="flex.css">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red;  
+        }
+        * {
+            color:blueviolet;
+            border: 2px solid red;
+        }
+        h1 {
+            color:black
+        }
+            .teks-merah {
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+            color: red;
+        }
+        #teks-kuning {
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+            color: yellow;
+        }
+        #teks-kuning {
+            color: yellow;
+        }
+        div p {
+            color:red;
+        }
+        div > div > p{
+            font-weight: bold;
+        }
+        .subbagian {
+            font-size: 30px;
+        }
+        .subbagian.header {
+            color: blueviolet;
+        }
+        .subbagian#teks {
+            color: brown;
+        }
+        p:hover {
+            background-color:aqua;
+        }
+        .kotak-satu {
+            padding: 20px;
+            margin: 10px;
+            border: 2px;
+            background-color: lightblue;
+        }
+        .kotak-dua {
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid red;
+            background-color: palegreen;
+            max-width: 50%;
+        }
+        .kotak-tiga {
+            padding-left: 50px;
+            margin-top: 50px;
+            margin-left: 50px;
+            border-left: 2px dotted red;
+            background-color: burlywood;
+            width: 300px;
+            height: 200px;
+        }
+        .container div {
+            background: peachpuff;
+            border: 5px solid brown;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Pemrograman Web 1</h1>
+    <p>Praktik Pemrograman Web 1 sesi 2 akan membahas tentang penggunaan CSS.</p>
+    <p>CSS atau Cascading Style Sheets adalah sebuah bahasa yang digunakan untuk 
+        mengatur tampilan suatu halaman web</p>
+
+    <p class="teks-merah">Praktik Pemrograman Web 1 sesi 2 akan membahas tentang penggunaan CSS.</p>
+    <p id="teks-kuning">CSS atau Cascading Style Sheets adalah sebuah bahasa yang digunakan untuk 
+        mengatur tampilan suatu halaman web</p>
+
+    <div>
+    <p>Ini adalah paragraf pertama.</p>
+        <div>
+            <p>Ini adalah paragraf kedua.</p>
+            </div>
+    </div>
+    <div>
+        <div class="subbagian header">Bagian header</div>
+        <p class="subbagian" id="teks">Ini adalah paragraf</p>
+    </div>
+    <h1>Ini adalah heading 1</h1>
+
+    <div class="container">
+        <div class="satu">Kotak 1</div>
+        <div class="dua">Kotak 2</div>
+        <div class="tiga">Kotak 3</div>
+    </div>
+</body>
+</html>
